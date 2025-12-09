@@ -24,7 +24,7 @@
     height: 100vh;
 }
 
-header{
+header, .navegacao{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,4 +33,22 @@ header{
 }
 .titulo-page{
     color: var(--branco);
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+    font-size: 90px;
+}
+.navegacao{
+    gap: 70px;
+    z-index: 2;
+}
+.navegacao a{
+    text-decoration: none;
+    color: var(--branco);
+    transition: 1s;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+.navegacao a:hover{
+    color: var(--vermelho);
 }
