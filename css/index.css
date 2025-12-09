@@ -54,3 +54,16 @@ header, .navegacao{
     color: var(--vermelho);
 }
 
+.titulo-inicio{
+    color: var(--branco);
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+    font-size: 90px;
+    margin-top: 20%;
+}
+.subtitulo-inicio{
+    color: var(--branco);
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 25px;
+}
