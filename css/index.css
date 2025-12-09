@@ -4,7 +4,33 @@
 /* font-family: "Montserrat", sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --branco: #FFFFFF;
+    --cinza: #2C2C2C;
+    --preto: #000000;
+    --vermelho: #D41F1F;
+}
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio{
+    background: url(../image/background-inicio.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 10% 0 10%; 
+}
+.titulo-page{
+    color: var(--branco);
 }
