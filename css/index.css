@@ -17,6 +17,7 @@
     box-sizing: border-box;
 }
 
+/* SECTION INICIO */
 .inicio{
     background: url(../image/background-inicio.jpg) no-repeat;
     background-size: cover;
@@ -67,3 +68,12 @@ header, .navegacao{
     font-family: "Montserrat", sans-serif; 
     font-size: 25px;
 }
+
+/* SECTION HISTÓRIA */
+
+/* SECTION INTEGRANTES */
+
+/* SECTION DISCOGRAFIA */
+
+
+/* SECTION LEGADO */
