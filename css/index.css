@@ -73,6 +73,18 @@ header, .navegacao{
 /* SECTION HISTÓRIA */
 
 /* SECTION INTEGRANTES */
+.integrantes{
+    background: url(../image/background-integrantes.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.titulo-form{
+    color: var(--branco);
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+}
 
 /* SECTION DISCOGRAFIA */
 .discografia {
