@@ -85,6 +85,16 @@ header, .navegacao{
     font-family: "Anton", sans-serif;
     font-size: 40px;
 }
+.foto-membro {
+    width: 141px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.foto-membro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* SECTION DISCOGRAFIA */
 .discografia {
